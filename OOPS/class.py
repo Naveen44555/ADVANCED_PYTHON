@@ -90,7 +90,6 @@ swiggy=application("swiggy","orange","food")
 print(f"app is {insta.name} color {insta.color} purpose is {insta.category} usage.")
 
 
-
 class application:
    def __init__ (app,name,color,category):
       app.name=name
