@@ -50,6 +50,7 @@ obj_kiran=person("kiran","male",26)
 print(obj_rakesh.name)
 print(obj_kiran.name)
 
+#----------------
 
 class application:
    def __init__(app,name,color,purpose):
@@ -61,6 +62,7 @@ meesho=application("mesho","meroon","shopping")
 myntra=application("myntra","white pink","shopping")
 print(meesho.name,meesho.color,meesho.purpose)
 
+#---------------
 
 class application:
    def __init__ (app,name,color,category):
@@ -81,13 +83,13 @@ class application:
       app.category=category
    def purpose(self,name):
       print("social media pusrpose")
-insta=application("instagram","red","socialmedia")
-insta.purpose
+insta=application("instagramm","redd","socialmedia")
+print(insta.name)
 
 ola=application("ola","yellow","travelling")
 swiggy=application("swiggy","orange","food")
 
-print(f"app is {insta.name} color {insta.color} purpose is {insta.category} usage.")
+print(f"app is {ola.name} color {ola.color} purpose is {ola.category} usage.")
 
 
 class application:
