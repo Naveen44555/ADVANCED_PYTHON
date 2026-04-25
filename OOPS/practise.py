@@ -88,9 +88,5 @@ while w>=3 :
     w=e+w%3
 print(t_c)
 
-    
-
-
-
 
 

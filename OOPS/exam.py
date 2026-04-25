@@ -23,3 +23,5 @@ class Derived(Intermediate):
 
 d = Derived()
 print(d.base_val)
+
+

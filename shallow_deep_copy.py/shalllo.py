@@ -7,41 +7,53 @@
 #         return factorial_n
 # print(factorial(5))
 
-
 # import copy
 # score_b={'score':{'runs':44,'players':10,'overs':5}}
 # nithish=copy.copy(score_b)
 # sravani=copy.copy(score_b)
 
-# sravani['score']['runs']=2
+# sravani['score']['runs']=9
 # print(score_b)
 # print(nithish)
 # print(sravani)
 
-# import copy
+# # import copy
 
-# score_b={'score':{'runs':44,'overs':4.5,'players':12}}
-# nithish=copy.copy(score_b)
-# sravani=copy.copy(score_b)
+# # score_b={'score':{'runs':44,'overs':4.5,'players':12}}
+# # nithish=copy.copy(score_b)
+# # sravani=copy.copy(score_b)
 
-# sravani['score']['runs']=33
+# # sravani['score']['runs']=33
 
-# print(score_b)
-# print(nithish)
-# print(sravani)
+# # print(score_b)
+# # print(nithish)
+# # print(sravani)
 
-# import copy
-# pubg={'score':{'score':44,'health':100,'kills':0}}
+import copy
+pubg={'score':{'score':44,'health':100,'kills':0}}
 
-# shanmukh=copy.deepcopy(pubg)
-# tharun=copy.deepcopy(pubg)
-# naveen=copy.deepcopy(pubg)
-# abdul=copy.deepcopy(pubg)
+shanmukh=copy.deepcopy(pubg)
+tharun=copy.deepcopy(pubg)
+naveen=copy.deepcopy(pubg)
+abdul=copy.deepcopy(pubg)
 
-# shanmukh['score']['kills']+=3
-# naveen['score']['health']-=25
+shanmukh['score']['kills']+=3
+naveen['score']['health']-=25
 
-# print(pubg)
-# print(shanmukh)
-# print(naveen)
-# print(abdul)
+print(pubg)
+print(shanmukh)
+print(naveen)
+print(abdul)
+
+
+
+# x=[1,2,3,[1,2,3],4,5,6,[3,4,5,[1,2,3[2,3,4,]]]]
+# # x=[1,2,3]
+# y=x[3]
+# z=0
+# for i in y:
+#     z=i+z
+# print(y)
+
+
+

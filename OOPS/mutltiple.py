@@ -36,3 +36,4 @@ ramcharan=childactor("chiranjeevi","ramcharan",100)
 ramcharan.cassets(75)
 ramcharan.totalassets()
 ramcharan.passets()
+

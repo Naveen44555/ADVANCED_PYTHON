@@ -20,9 +20,44 @@
 
 
 # for i in range(6):
-for i in range(6,0,-1):
-       print(i*'*')
+# for i in range(6,0,-1):
+#        print(i*'*')
    
 
 # for i in range(5,0,-1):
 #     print(i*'*')
+
+#1.Practise deep copy and shallow copy
+#shallow copy
+import copy
+
+nn={'sports':{'score':33,'team':11,'out':3}}
+naveen=copy.copy(nn)
+raj=copy.copy(nn)
+vinay=copy.copy(nn)
+
+vinay['sports']['score']=50
+raj['sports']['score']=40
+naveen['sports']['out']=7
+raj['sports']['score']=90
+raj['sports']['out']=6
+
+print(naveen)
+print(raj)
+print(vinay)
+
+
+#deep copy
+nn={'pubg':{'alive':100,'health':90,'kills':2}}
+vinay=copy.deepcopy(nn)
+lucky=copy.deepcopy(nn)
+sheshu=copy.deepcopy(nn)
+
+vinay['pubg']['health']=70
+lucky['pubg']['kills']=5
+
+print(vinay)
+print(lucky)
+print(sheshu)
+
+#2.
