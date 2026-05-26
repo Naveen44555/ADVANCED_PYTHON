@@ -29,21 +29,21 @@
 # # print(nithish)
 # # print(sravani)
 
-import copy
-pubg={'score':{'score':44,'health':100,'kills':0}}
+# import copy
+# pubg={'score':{'score':44,'health':100,'kills':0}}
 
-shanmukh=copy.deepcopy(pubg)
-tharun=copy.deepcopy(pubg)
-naveen=copy.deepcopy(pubg)
-abdul=copy.deepcopy(pubg)
+# shanmukh=copy.deepcopy(pubg)
+# tharun=copy.deepcopy(pubg)
+# naveen=copy.deepcopy(pubg)
+# abdul=copy.deepcopy(pubg)
 
-shanmukh['score']['kills']+=3
-naveen['score']['health']-=25
+# shanmukh['score']['kills']+=3
+# naveen['score']['health']-=25
 
-print(pubg)
-print(shanmukh)
-print(naveen)
-print(abdul)
+# print(pubg)
+# print(shanmukh)
+# print(naveen)
+# print(abdul)
 
 
 
@@ -57,3 +57,45 @@ print(abdul)
 
 
 
+# # --------new
+# # import copy
+
+# ----shallow copy
+# a=[1,2,3,[4,5]]
+# b=a.copy()
+# #         b=copy.copy(a)
+# b[0]=100
+# print(b)
+# print(a)
+# b[3][0]=400
+# print(b)
+# print(a)
+
+# a=[1,2,3,[4,5]]
+# import copy
+# b=copy.deepcopy(a)
+# b[0]=100
+# print(b)
+# print(a)
+# b[3][0]=400
+# print(b)
+# print(a)
+
+
+# # ---shallow c
+# import copy
+# a={"score":{"kills":2,"deaths":2,"health":30}}
+# naveen=copy.copy(a)
+# honey=copy.copy(a)
+# honey["score"]["deaths"]=5
+# print(honey)
+# print(naveen)
+
+# # deep copy
+# import copy
+# b={"score":{"kills":2,"deaths":1,"health":70}}
+# ani=copy.deepcopy(b)
+# kushi=copy.deepcopy(b)
+# ani["score"]["kills"]=4
+# print(ani)
+# print(kushi)
